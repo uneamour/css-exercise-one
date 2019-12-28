@@ -24,19 +24,30 @@ section {
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center; /**Added missing colon (:) and and semi-colon **/
 }
 
 h3 {
   font-size: 1.3em;
 }
-
   
-  div.feature { /***replaced ".element" with "div.feature" ***/
+.element { 
   background-color: green;
-  margin 10px 0;
+  margin: 10px 0; /** Added missing colon (:) **/
 } /** Added missing curly bracket **/
-  
+ 
  /*** Added new grouping ***/
   height, width {100px;
 }
+
+.feature, div {
+  background-color: blue;
+} /** Added the first of three div elements with background color **/
+
+.feature, div {
+  background-color: blue;
+} /** Added the second of three div elements with background color **/
+  
+.feature, div {
+  background-color: blue;
+} /** Added the last of three div elements with background color **/
