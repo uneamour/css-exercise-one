@@ -6,8 +6,8 @@ nav {
   background-color: yellow; /*** Added missing "-" in background-color ***/
   margin-top: -10px;
   position: fixed;
-  height: 100px; /**NEW added height **/
-  width: 100%; /**NEW added width **/
+  height: 100px; /** Added height **/
+  width: 100%; /** Added width **/
 } /** Added missing curly bracket **/
 
 section {
@@ -16,13 +16,13 @@ section {
 }
 
 .header /*** Added .header ***/ h1 {
-  font-family: sans-serif; /***Added colon after font-family***/
+  font-family: sans-serif; /*** Added colon after font-family***/
   font-size: 2em;
 }
 
 .example, h3 {
   padding-top: 30px;
-  text-align: center; /**Added missing colon (:) and and semi-colon **/
+  text-align: center; /** Added missing colon (:) and and semi-colon **/
 }
 
 h3 {
@@ -31,10 +31,12 @@ h3 {
   
 .element { 
   margin: 10px 0; /** Added missing colon (:) **/  
-  height: 100px; /**NEW added height **/
-  width: 100%; /**NEW added width **/
+  height: 100px; /** Added height **/
+  width: 100%; /** Added width **/
 } /** Added missing curly bracket **/
 
-.feature {/** NEW Removed reference to div in this code **/
-  background-color: blue;
-} 
+.feature {/** Removed reference to div in this code **/
+  .element { /** NEW added .element to correspond with edits made in the HTML/Index file **/
+    background-color: blue;
+  } 
+}
