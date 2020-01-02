@@ -33,11 +33,10 @@ h3 {
   margin: 10px 0; /** Added missing colon (:) **/  
   height: 100px; /** Added height **/
   width: 100%; /** Added width **/
-  background-color: #141FC8; /** NEW Added background color for divs **/
 } /** Added missing curly bracket **/
 
 .feature {/** Removed reference to div in this code **/
   .element { /** NEW added .element to correspond with edits made in the HTML/Index file **/
-    background-color: blue;
+    background-color: #525695; /** NEW Added background color for divs **/
   } 
 }
